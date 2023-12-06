@@ -1,0 +1,14 @@
+name: WorldResetPlugin
+version: '${project.version}'
+main: com.github.shin_ideal.worldresetplugin.WorldResetPlugin
+api-version: '1.16'
+depend: [ Multiverse-Core ]
+commands:
+  resetworld:
+    description: World Reset Command
+    aliases: [ resetw,rw ]
+    permission: "WorldResetPlugin.Commands.resetworld"
+permissions:
+  WorldResetPlugin.Commands.resetworld:
+    description: World Reset Command Permission
+    default: op

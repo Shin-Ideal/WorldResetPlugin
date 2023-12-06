@@ -1,0 +1,4 @@
+#WorldResetPlugin Config
+ResetOnBoot:
+  enable: false
+  world: []
